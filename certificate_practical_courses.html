@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>TESOL</title>
+		<!-- Bootstrap -->
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+		<link rel="stylesheet" type="text/css" href="css/main_4.css" />
+		<link rel="stylesheet" type="text/css" href="css/font.css" />
+		<link rel="stylesheet" type="text/css" href="css/lanrenzhijia.css" />
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/layui.css" />
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="layui.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/html5shiv.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/main.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" src="js/lanrenzhijia.js"></script>
+
+		<script src="js/index_video.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" src="ckplayer/ckplayer.js" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+
+				$(".video_btn").show();
+				$(".video_btn  a:first").addClass("active");
+			});
+			
+		</script>
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	</head>
+
+	<body>
+		<header>
+			<nav class="max-width-920" style="max-width:1200px;">
+				<!--左LOGO-->
+				<div class="logo fl">
+					<img src="img/logo.png" />
+				</div>
+				<!--右导航-->
+				<!--顶部仨按钮-->
+				<ul class="top_button fr">
+					<li>
+						<a href="#" onclick="alert('功能升级中，尽情期待！')" class="login btn  hidden-xs">考试中心</a>
+					</li>
+					<li>
+						<a href="http://learn.tesol.net.cn/" class="login btn  hidden-xs">学习中心</a>
+					</li>
+					<li>
+						<a href="#" class="en hidden-xs">中/EN</a>
+					</li>
+				</ul>
+				<ul class="layui-nav fr hidden-xs" style="width:880px;" lay-filter="">
+					<li class="layui-nav-item ">
+						<a href="index.html">首页</a>
+					</li>
+					<li class="layui-nav-item layui-this">
+						<a href="javascript:;">官方背景</a>
+						<dl class="layui-nav-child">
+							<dd>
+								<a href="certificate_official.html">官方背景</a>
+							</dd>
+							<dd>
+								<a href="certificate_world.html">全球认可</a>
+							</dd>
+							<dd>
+								<a href="certificate_visa.html">签证便捷</a>
+							</dd>
+							<dd>
+								<a href="certificate_academic.html">学术覆盖</a>
+							</dd>
+							<dd>
+								<a href="certificate_combat.html">实战教学</a>
+							</dd>
+							<dd>
+								<a href="certificate_system.html">证书体系</a>
+							</dd>
+							<dd>
+								<a href="certificate_a.html">A证书课程</a>
+							</dd>
+							<dd>
+								<a href="certificate_b.html">B证书专业</a>
+							</dd>
+							<dd>
+								<a href="certificate_payment_process.html">培训流程</a>
+							</dd>
+							<dd>
+								<!--<a href="certificate_practical_courses.html">实践课程</a>-->
+							</dd>
+							<dd>
+								<a href="certificate_continue.html">继续教育</a>
+							</dd>
+							<dd>
+								<a href="study_good.html">证书益处</a>
+							</dd>
+							<dd>
+								<a href="tesol_jianjie.html">TESOL简介</a>
+							</dd>
+						</dl>
+					</li>
+					<li class="layui-nav-item">
+						<a href="javascript:;">基地建设</a>
+						<dl class="layui-nav-child">
+							<!-- 二级菜单 -->
+							<dd>
+								<a href="base_type.html">基地类别</a>
+							</dd>
+							<dd>
+								<a href="base_planning.html">基地规划</a>
+							</dd>
+							<dd>
+								<a href="base_example.html">基地案例</a>
+							</dd>
+						</dl>
+					</li>
+					<li class="layui-nav-item">
+						<a href="javascript:;">保薪就业</a>
+						<dl class="layui-nav-child">
+							<!-- 二级菜单 -->
+							<dd>
+								<a href="study_object.html">薪资标准</a>
+							</dd>
+							<dd>
+								<a href="study_advantage.html">用人机构</a>
+							</dd>
+							<dd>
+								<a href="study_elegant.html">优秀学员</a>
+							</dd>
+							<dd>
+								<a href="study_employment.html">学员就业</a>
+							</dd>
+							<dd>
+								<a href="study_objects.html">学习对象</a>
+							</dd>
+							<!--<dd>
+								<a href="study_good_plan.html">优秀教案</a>
+							</dd>-->
+						</dl>
+					</li>
+					<li class="layui-nav-item hidden-sm">
+						<a href="http://www.tesol.net.cn/zscx.html">证书查询</a>
+					</li>
+					<li class="layui-nav-item hidden-sm">
+						<a href="##" id="1" onclick="javascript:alert('建设升级中');">合作伙伴</a>
+					</li>
+					<li class="layui-nav-item hidden-sm" >
+						<a href="kaodian.html" id="2">考点</a>
+					</li>
+
+					<li class="layui-nav-item hidden-sm" >
+						<a href="##" id="3"  onclick="javascript:alert('建设升级中');">专家委员会</a>
+					</li>
+
+					<li class="layui-nav-item hidden-sm" >
+						<a href="##" id="4"  onclick="javascript:alert('建设升级中');">评审委员会</a>
+					</li>
+				</ul>
+				<div class="clear">
+				</div>
+				<!--响应式导航，小屏可见-->
+				<button class="fr visible-xs-block daohang_btn btn" id="nav_btn"><i class="fa fa-bars" aria-hidden="true"></i></button>
+				<ul id="accordion" class="accordion">
+					<li>
+						<a href="index.html">
+							<div class="link">首页</div>
+						</a>
+					</li>
+					<li>
+						<div class="link">官方背景<i class="fa fa-chevron-down"></i></div>
+						<ul class="submenu">
+							<li>
+								<a href="certificate_official.html">官方背景</a>
+							</li>
+							<li>
+								<a href="certificate_world.html">全球认可</a>
+							</li>
+							<li>
+								<a href="certificate_visa.html">签证便捷</a>
+							</li>
+							<li>
+								<a href="certificate_academic.html">学术覆盖</a>
+							</li>
+							<li>
+								<a href="certificate_continue.html">继续教育</a>
+							</li>
+							<li>
+								<a href="study_good.html">证书益处</a>
+							</li>
+							<li>
+								<a href="tesol_jianjie.html">TESOL简介</a>
+							</li>
+							<li>
+								<a href="certificate_combat.html">实战教学</a>
+							</li>
+							<li>
+								<a href="certificate_system.html">证书体系</a>
+							</li>
+							<li>
+								<a href="certificate_a.html">A证书课程</a>
+							</li>
+							<li>
+								<a href="certificate_b.html">B证书专业</a>
+							</li>
+							<li>
+								<a href="certificate_payment_process.html">缴费流程</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<div class="link">实践课程<i class="fa fa-chevron-down"></i></div>
+						<ul class="submenu">
+							<li>
+								<a href="base_type.html">基地类别</a>
+							</li>
+							<li>
+								<a href="base_planning.html">基地规划</a>
+							</li>
+							<li>
+								<a href="base_example.html">基地案例</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<div class="link">优秀学员<i class="fa fa-chevron-down"></i></div>
+						<ul class="submenu">
+							<li>
+								<a href="study_object.html">学习对象</a>
+							</li>
+							<li>
+								<a href="study_advantage.html">证书优势</a>
+							</li>
+							<li>
+								<a href="study_elegant.html">优秀学员</a>
+							</li>
+							<li>
+								<a href="study_employment.html">学员就业</a>
+							</li>
+							<li>
+								<a href="study_objects.html">学习对象</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="http://learn.tesol.net.cn/">
+							<div class="link">学员中心</div>
+						</a>
+					</li>
+					<li>
+						<a href="http://learn.tesol.net.cn/">
+							<div class="link">考试中心</div>
+						</a>
+					</li>
+					<li>
+						<a href="http://www.tesol.net.cn/zscx.html">
+							<div class="link">证书查询</div>
+						</a>
+					</li>
+					<li>
+						<a href="index.html">
+							<div class="link">中文/English</div>
+						</a>
+					</li>
+					<li>
+						<a href="kaodian.html" id="1">
+							<div class="link">考点</div>
+						</a>
+					</li>
+
+					<li>
+						<a href="#" id="1" onclick="javascript:alert('建设升级中');">
+							<div class="link">专家委员会</div>
+						</a>
+					</li>
+
+					<li>
+						<a href="#" id="1" onclick="javascript:alert('建设升级中');">
+							<div class="link">评审委员会</div>
+						</a>
+					</li>
+				</ul>
+				<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+				<script src="js/nav.js"></script>
+			</nav>
+		</header>
+		<!--实践基地——实践课程-->
+		<div class="official_head practical_courses_head">
+			<div class="example_placeholder"></div>
+			<div class="max-width-920">
+				<img src="img/practical_courses.png" />
+			</div>
+		</div>
+		<div class="official_body practical_courses_body">
+			<div class="max-width-920 ">
+				<p class="hei24 text-center">实践课程</p>
+				<div class="courses_line">
+					<div class="fl col-sm-3 col-xs-3">
+						<hr />
+					</div>
+					<span class="col-sm-6 col-xs-6 text-center hui14  courses">Practical courses</span>
+					<div class="col-sm-3 col-xs-3 fr">
+						<hr />
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+		</div>
+		<div class="courses_ul max-width-920">
+			<ul>
+				<li class="col-sm-3 col-xs-6">
+					<div class="courses_li">
+						<a href="#" data-toggle="modal" data-target="#myModal">
+							<img src="img/courses_li.png" />
+							<div class="courses_icon"></div>
+						</a>
+					</div>
+				</li>
+				<li class="col-sm-3 col-xs-6">
+					<div class="courses_li">
+						<a href="#" data-toggle="modal" data-target="#myModal">
+							<img src="img/courses_li.png" />
+							<div class="courses_icon"></div>
+						</a>
+					</div>
+				</li>
+				<li class="col-sm-3 col-xs-6">
+					<div class="courses_li">
+						<a href="#" data-toggle="modal" data-target="#myModal">
+							<img src="img/courses_li.png" />
+							<div class="courses_icon"></div>
+						</a>
+					</div>
+				</li>
+				<li class="col-sm-3 col-xs-6">
+					<div class="courses_li">
+						<a href="#" data-toggle="modal" data-target="#myModal">
+							<img src="img/courses_li.png" />
+							<div class="courses_icon"></div>
+						</a>
+					</div>
+				</li>
+				<li class="col-sm-3 col-xs-6">
+					<div class="courses_li">
+						<a href="#" data-toggle="modal" data-target="#myModal">
+							<img src="img/courses_li.png" />
+							<div class="courses_icon"></div>
+						</a>
+					</div>
+				</li>
+				<li class="col-sm-3 col-xs-6">
+					<div class="courses_li">
+						<a href="#" data-toggle="modal" data-target="#myModal">
+							<img src="img/courses_li.png" />
+							<div class="courses_icon"></div>
+						</a>
+					</div>
+				</li>
+				<div class="clear"></div>
+			</ul>
+		</div>
+		<!-- Modal -->
+		<div class="modal courses_vide fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button onclick="CKobject.getObjectById('ckplayer_a1').videoPause()"; type="button" id="guanbi" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+						<h4 class="modal-title" id="myModalLabel">实践课程</h4>
+					</div>
+					<div id="a2" class=""></div>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<div class="footer_bg">
+				<div class="qianhui14 max-width-920">
+					<!--<div class="footer_left col-sm-10 col-xs-12 fl">
+						<p>友情链接：</p>
+						<a href="http://www.bds-cn.com/jyys/"><img src="img/jiaoyuan.png" /></a>
+					</div>-->
+					<div class="footer_right col-sm-2 col-xs-12 fr">
+						<img src="img/erweima.png" />
+						<p>扫一扫<br />关注微信公众号<br />随时了解最新动态</p>
+					</div>
+					<div class="clear">
+						<p>版权所有：交远出入境-国际教育中心 / 美国专业教学委员会<br />400热线：400-900-1806</p>
+						<p class="text-center">Copyright © 交远出入境-国际教育中心 京ICP备16035567号-1</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+
+</html>

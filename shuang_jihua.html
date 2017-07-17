@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TESOL</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/main_4.css" />
+    <link rel="stylesheet" type="text/css" href="css/font.css" />
+    <link rel="stylesheet" type="text/css" href="css/lanrenzhijia.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/layui.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <style>
+        table{
+            border:2px solid royalblue;
+        }
+    </style>
+    <script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="layui.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/html5shiv.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/main.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" src="js/lanrenzhijia.js"></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+<header>
+    <nav class="max-width-920" style="max-width:1300px;">
+        <!--左LOGO-->
+        <div class="logo fl">
+            <img src="img/logo.png" />
+        </div>
+        <!--右导航-->
+        <!--顶部仨按钮-->
+        <ul class="top_button fr">
+            <li>
+                <a href="#" onclick="alert('功能升级中，尽情期待！')" class="login btn  hidden-xs">考试中心</a>
+            </li>
+            <li>
+                <a href="http://59.110.11.177:8080/" class="login btn  hidden-xs">学习中心</a>
+            </li>
+            <li>
+                <a href="#" class="en hidden-xs">中/EN</a>
+            </li>
+        </ul>
+        <ul class="layui-nav fr hidden-xs" style="width:980px;" lay-filter="">
+            <li class="layui-nav-item">
+                <a href="index.html">首页</a>
+            </li>
+            <li class="layui-nav-item">
+                <a href="tesol_jianshu.html">TESOL简述</a>
+            </li>
+            <li class="layui-nav-item">
+                <a href="javascript:;">官方背景</a>
+                <dl class="layui-nav-child">
+                    <!-- 二级菜单 -->
+                    <dd>
+                        <a href="certificate_official.html">北京外交人员服务局</a>
+                    </dd>
+                    <dd>
+                        <a href="study_advantage.html">美国专业教学委员会(USAPTC)</a>
+                    </dd>
+                    <dd>
+                        <a href="tesol_jianjie.html">学术支撑体系</a>
+                    </dd>
+                    <dd>
+                        <a href="shijian_peixun.html">实践培训</a>
+                    </dd>
+                </dl>
+            </li>
+            <li class="layui-nav-item hidden-sm">
+                <a href="certificate_world.html">全球认证</a>
+            </li>
+            <li class="layui-nav-item hidden-sm">
+                <a href="http://www.tesol.net.cn/zscx.html">证书查询</a>
+            </li>
+            <li class="layui-nav-item">
+                <a href="committee_of_experts.html" id="1"">TESOL专家委员会</a>
+            </li>
+            <li class="layui-nav-item  layui-this">
+                <a href="javascript:;">双保计划</a>
+                <dl class="layui-nav-child">
+                    <!-- 二级菜单 -->
+                    <dd>
+                        <a href="shuang_jihua.html">双保计划简介(保实习、保就业)</a>
+                    </dd>
+                    <dd>
+                        <a href="min_money.html">保证就业最低薪资标准</a>
+                    </dd>
+                    <dd>
+                        <a href="employment_case.html">学员就业精选案例</a>
+                    </dd>
+                    <dd>
+                        <a href="cooperative_organization.html">合作就业机构</a>
+                    </dd>
+                </dl>
+            </li>
+
+            <li class="layui-nav-item" >
+                <a href="training_process.html" id="3">培训流程</a>
+            </li>
+            <li class="layui-nav-item" >
+                <a href="cooperative_school.html" id="3">合作院校</a>
+            </li>
+            <!--<li class="layui-nav-item hidden-sm" >-->
+            <!--<a href="##" id="4" onclick="javascript:alert('建设升级中');">评审委</a>-->
+            <!--</li>-->
+        </ul>
+        <div class="clear">
+        </div>
+        <!--响应式导航，小屏可见-->
+        <button class="fr visible-xs-block daohang_btn btn" id="nav_btn"><i class="fa fa-bars" aria-hidden="true"></i></button>
+        <ul id="accordion" class="accordion">
+            <li class="layui-nav-item layui-this">
+                <a href="index.html">
+                    <div class="link">首页</div>
+                </a>
+            </li>
+            <li>
+                <a href="tesol_jianshu.html">
+                    <div class="link">TESOL简述</div>
+                </a>
+            </li>
+            <li>
+                <div class="link">官方背景<i class="fa fa-chevron-down"></i></div>
+                <ul class="submenu">
+                    <li>
+                        <a href="certificate_official.html">北京外交人员服务局</a>
+                    </li>
+                    <li>
+                        <a href="study_advantage.html">美国专业教学委员会(USAPTC)</a>
+                    </li>
+                    <li>
+                        <a href="tesol_jianjie.html">学术支撑体系</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="certificate_world.html">
+                    <div class="link">全球认证</div>
+                </a>
+            </li>
+            <li>
+                <a href="http://www.tesol.net.cn/zscx.html">
+                    <div class="link">证书查询</div>
+                </a>
+            </li>
+            <li>
+                <a href="committee_of_experts.html">
+                    <div class="link">TESOL专家委员会</div>
+                </a>
+            </li>
+            <li>
+                <div class="link">双保计划<i class="fa fa-chevron-down"></i></div>
+                <ul class="submenu">
+                    <li>
+                        <a href="shuang_jihua.html">双保计划简介(保实习、保就业)</a>
+                    </li>
+                    <li>
+                        <a href="min_money.html">保证就业最低薪资标准</a>
+                    </li>
+                    <li>
+                        <a href="employment_case.html">学员就业精选案例</a>
+                    </li>
+                    <li>
+                        <a href="cooperative_organization.html">合作就业机构</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="training_process.html">
+                    <div class="link">培训流程</div>
+                </a>
+            </li>
+            <li>
+                <a href="cooperative_school.html">
+                    <div class="link">合作院校</div>
+                </a>
+            </li>
+            <li>
+                <a href="index.html">
+                    <div class="link">中文/English</div>
+                </a>
+            </li>
+        </ul>
+        <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+        <script src="js/nav.js"></script>
+    </nav>
+</header>
+<!--实践基地——基地案例-->
+<div class="official_head">
+    <div class="example_placeholder"></div>
+</div>
+<div class="official_body base_example">
+    <div class="max-width-920 continue">
+        <p style="text-align: center;font-size:25px;font-weight:800">双保计划简介</p>
+        <br /><br />
+        <!--继续教育-->
+        <div id="obj"  style="font-size:20px;line-height:1.5;text-indent:2em;">
+            "双保计划"基于TESOL教学系统、教师就业培训、大学生家教实习三位一体的服务。面向国内TESOL证书持有学员，提供更加专业的在职教师培训、应届大学生就业、在校大学生实习等服务内容。
+        </div>
+        <div id="obj"  style="font-size:20px;line-height:1.5;text-indent:2em;">
+            作为国内最大的专业教师就业培训平台之一，我们专注教师就业培训与人才输出，目前已签约多家教育局、教育人才事业单位和大型的教育机构。目前我们的学员在北京、上海、南京、厦门等20多个城市以及其他国家均获得了大量高薪就业机会。
+        </div>
+        <div style="text-align:center;margin-top:50px">
+            <img src="img/07-08_03.png" width="80%"/>
+        </div>
+        <script type="text/javascript">
+            obj('obj',0);
+        </script>
+    </div>
+</div>
+<footer>
+    <div class="footer_bg">
+        <div class="qianhui14 max-width-920">
+            <!--<div class="footer_left col-sm-10 col-xs-12 fl">
+                <p>友情链接：</p>
+                <a href="http://www.bds-cn.com/jyys/"><img src="img/jiaoyuan.png" /></a>
+            </div>-->
+            <div class="footer_right col-sm-2 col-xs-12 fr">
+                <img src="img/erweima.png" />
+                <p>扫一扫<br />关注微信公众号<br />随时了解最新动态</p>
+            </div>
+            <div class="clear">
+                <p>版权所有：交远出入境-国际教育中心 / 美国专业教学委员会<br />400热线：400-900-1806</p>
+                <p class="text-center">Copyright © 交远出入境-国际教育中心 京ICP备16035567号-1</p>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
