@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>中文网站</title>
+		<!-- Bootstrap -->
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+		<link rel="stylesheet" type="text/css" href="css/main_4.css" />
+		<link rel="stylesheet" type="text/css" href="css/font.css" />
+		<link rel="stylesheet" type="text/css" href="css/lanrenzhijia.css" />
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/layui.css" />
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<script src="js/jquery.min.js"></script>
+		<script src="js/index_video.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="layui.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/html5shiv.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/main.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" src="js/lanrenzhijia.js"></script>
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	</head>
+
+	<body>
+		<header>
+			<nav class="max-width-920" style="max-width:1300px;">
+				<!--左LOGO-->
+				<div class="logo fl">
+					<img src="img/logo.png" />
+				</div>
+				<!--右导航-->
+				<!--顶部仨按钮-->
+				<ul class="top_button fr">
+					<li>
+						<a href="#" onclick="alert('功能升级中，尽情期待！')" class="login btn  hidden-xs">考试中心</a>
+					</li>
+					<li>
+						<a href="http://59.110.11.177:8080/" class="login btn  hidden-xs">学习中心</a>
+					</li>
+					<li>
+						<a href="index-E.html" class="en hidden-xs">中/EN</a>
+					</li>
+				</ul>
+				<ul class="layui-nav fr hidden-xs" style="width:980px;" lay-filter="">
+					<li class="layui-nav-item layui-this">
+						<a href="index.html">首页</a>
+					</li>
+					<li class="layui-nav-item">
+						<a href="tesol_jianshu.html">TESOL简述</a>
+					</li>
+					<li class="layui-nav-item">
+						<a href="javascript:;">官方背景</a>
+						<dl class="layui-nav-child">
+							<!-- 二级菜单 -->
+							<dd>
+								<a href="certificate_official.html">北京外交人员服务局</a>
+							</dd>
+							<dd>
+								<a href="study_advantage.html">美国专业教学委员会(USAPTC)</a>
+							</dd>
+							<dd>
+								<a href="tesol_jianjie.html">学术支撑体系</a>
+							</dd>
+							<dd>
+								<a href="shijian_peixun.html">实践培训</a>
+							</dd>
+						</dl>
+					</li>
+					<li class="layui-nav-item">
+						<a href="certificate_world.html">全球认证</a>
+					</li>
+					<li class="layui-nav-item hidden-sm">
+						<a href="http://www.tesol.net.cn/zscx.html">证书查询</a>
+					</li>
+					<li class="layui-nav-item">
+						<a href="committee_of_experts.html" id="1">TESOL专家委员会</a>
+					</li>
+					<li class="layui-nav-item">
+						<a href="javascript:;">双保计划</a>
+						<dl class="layui-nav-child">
+							<!-- 二级菜单 -->
+							<dd>
+								<a href="shuang_jihua.html">双保计划简介(保实习、保就业)</a>
+							</dd>
+							<dd>
+								<a href="min_money.html">保证就业最低薪资标准</a>
+							</dd>
+							<dd>
+								<a href="employment_case.html">学员就业精选案例</a>
+							</dd>
+							<dd>
+								<a href="cooperative_organization.html">合作就业机构</a>
+							</dd>
+						</dl>
+					</li>
+					<li class="layui-nav-item" >
+						<a href="training_process.html" id="3">培训流程</a>
+					</li>
+					<li class="layui-nav-item" >
+						<a href="cooperative_school.html" id="3">合作院校</a>
+					</li>
+					<!--<li class="layui-nav-item hidden-sm" >-->
+					<!--<a href="##" id="4" onclick="javascript:alert('建设升级中');">评审委</a>-->
+					<!--</li>-->
+				</ul>
+				<div class="clear">
+				</div>
+				<!--响应式导航，小屏可见-->
+				<button class="fr visible-xs-block daohang_btn btn" id="nav_btn"><i class="fa fa-bars" aria-hidden="true"></i></button>
+				<ul id="accordion" class="accordion">
+					<li class="layui-nav-item layui-this">
+						<a href="index.html">
+							<div class="link">首页</div>
+						</a>
+					</li>
+					<li>
+						<a href="tesol_jianshu.html">
+							<div class="link">TESOL简述</div>
+						</a>
+					</li>
+					<li>
+						<div class="link">官方背景<i class="fa fa-chevron-down"></i></div>
+						<ul class="submenu">
+							<li>
+								<a href="certificate_official.html">北京外交人员服务局</a>
+							</li>
+							<li>
+								<a href="study_advantage.html">美国专业教学委员会(USAPTC)</a>
+							</li>
+							<li>
+								<a href="tesol_jianjie.html">学术支撑体系</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="certificate_world.html">
+							<div class="link">全球认证</div>
+						</a>
+					</li>
+					<li>
+						<a href="http://www.tesol.net.cn/zscx.html">
+							<div class="link">证书查询</div>
+						</a>
+					</li>
+					<li>
+						<a href="committee_of_experts.html">
+							<div class="link">TESOL专家委员会</div>
+						</a>
+					</li>
+					<li>
+						<div class="link">双保计划<i class="fa fa-chevron-down"></i></div>
+						<ul class="submenu">
+							<li>
+								<a href="shuang_jihua.html">双保计划简介(保实习、保就业)</a>
+							</li>
+							<li>
+								<a href="min_money.html">保证就业最低薪资标准</a>
+							</li>
+							<li>
+								<a href="employment_case.html">学员就业精选案例</a>
+							</li>
+							<li>
+								<a href="cooperative_organization.html">合作就业机构</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="training_process.html">
+							<div class="link">培训流程</div>
+						</a>
+					</li>
+					<li>
+						<a href="cooperative_school.html">
+							<div class="link">合作院校</div>
+						</a>
+					</li>
+					<li>
+						<a href="index.html">
+							<div class="link">中文/English</div>
+						</a>
+					</li>
+				</ul>
+				<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+				<script src="js/nav.js"></script>
+			</nav>
+		</header>
+		<!--轮播图-->
+		<div class="banner">
+			<img src="img/welcome_bg.jpg" />
+			<!--<section class="slider-container">
+				<ul id="slider" class="slider-wrapper">
+					<li class="slide-current">
+						<div class="banner_bg">
+							<div class="">
+								<img src="img/banner1.png" alt="Slider Imagen 1">
+							</div>
+						</div>
+					</li>
+					<li class="slide-current">
+						<div class="banner_bg">
+							<div class="">
+								<img src="img/banner1.png" alt="Slider Imagen 2">
+							</div>
+						</div>
+					</li>
+					<li class="slide-current">
+						<div class="banner_bg">
+							<div class="">
+								<img src="img/banner1.png" alt="Slider Imagen 3">
+							</div>
+						</div>
+					</li>
+				</ul>
+				<div class="xiaodian">
+					<ul id="slider-controls" class="slider-controls"></ul>
+				</div>
+			</section>-->
+		</div>
+		<div class="Learning_center">
+			<div class=" max-width-920">
+				<p class="hei36">学习中心</p>
+				<p class="hui16">Learning center</p>
+				<p class="hui14">TESOL 的教学方法特别考虑到学习者的母语和文化背景。以中文教学做比喻，给一个在中国长大的孩子教中文和给一个在美国长大的孩子教中文，教学方法是不一样的，学习中心里边包括了标准课件、视频、作业辅导。</p>
+				<ul class="Learning_list">
+					<li class="col-sm-4 col-xs-12">
+						<div class="Learning_content">
+							<div class="head">
+								<p class="bai16">成绩查询</p>
+							</div>
+							<img src="img/Learning_center01.png" />
+							<p class="hei16">Tesol考试成绩查询入口</p>
+							<p>Tesol query entrance exam results</p>
+							<a href="#" onclick="alert('功能升级中，尽情期待！')" class="btn btn-danger">查询成绩 <i class="fa fa-share" aria-hidden="true"></i></a>
+						</div>
+					</li>
+					<li class="col-sm-4 col-xs-12">
+						<div class="Learning_content">
+							<div class="head">
+								<p class="bai16">考试报名</p>
+							</div>
+							<img src="img/Learning_center02.png" />
+							<p class="hei16">Tesol考试报名入口</p>
+							<p>Tesol enrolment entrance exam</p>
+							<a href="http://59.110.11.177/" class="btn btn-danger">考试报名 <i class="fa fa-share" aria-hidden="true"></i></a>
+						</div>
+					</li>
+					<li class="col-sm-4 col-xs-12">
+						<div class="Learning_content">
+							<div class="head">
+								<p class="bai16">证书查询</p>
+							</div>
+							<img src="img/Learning_center03.png" />
+							<p class="hei16">Tesol证书查询入口</p>
+							<p>Tesol certificate query entrance</p>
+							<a href="http://www.tesol.net.cn/zscx.html" class="btn btn-danger">证书查询 <i class="fa fa-share" aria-hidden="true"></i></a>
+						</div>
+					</li>
+					<div class="clear"></div>
+				</ul>
+			</div>
+		</div>
+		<div class="Practical_courses hidden-xs">
+			<div class="max-width-920">
+				<img src="img/triangle.png" />
+				<p class="hei36">精彩视频</p>
+				<p class="hui16">Wonderful VCRs</p>
+				<!--<p class="hui14">我们致力于在实践中逐步学习，慢慢引导着学习，享受交流的快乐。学习一门语言不再局限于课本上的读、背、写，在交流中学到海量的知识。</p>-->
+				<div class="wrap" id="wrap">
+					<div class="slide" id="slide">
+						<ul>
+							<!--<li>-->
+								<!--<img src="img/Learning_center01.png" alt="" />-->
+								<!--<div onclick="fun(5)" class="video_icon" data-toggle="modal" data-target="#myvideo"></div>-->
+							<!--</li>-->
+							<!--这个是主页-->
+							<li>
+								<img src="img/new_03.jpg" alt="" />
+								<div  onclick="fun(5)" class="video_icon" data-toggle="modal" data-target="#myvideo"></div>
+							</li>
+							<li>
+								<img src="img/Learning_center04.png" alt="" />
+								<div onclick="fun(4)" class="video_icon" data-toggle="modal" data-target="#myvideo"></div>
+							</li>
+							<li>
+								<img src="img/new_03.jpg" alt="" />
+								<div  onclick="fun(5)" class="video_icon" data-toggle="modal" data-target="#myvideo"></div>
+							</li>
+							<li>
+								<img src="img/Learning_center04.png" alt="" />
+								<div onclick="fun(4)" class="video_icon" data-toggle="modal" data-target="#myvideo"></div>
+							</li>
+							<!--<li>-->
+								<!--<img src="img/Learning_center03.png" alt="" />-->
+								<!--<div onclick="fun(5)" class="video_icon" data-toggle="modal" data-target="#myvideo"></div>-->
+							<!--</li>-->
+							<!--<li>-->
+								<!--<img src="img/Learning_center01.png" alt="" />-->
+								<!--<div onclick="fun(5)" id="s123" class="video_icon" data-toggle="modal" data-target="#myvideo"></div>-->
+							<!--</li>-->
+							<!-- <li>
+								<img src="img/Learning_center02.png" alt="" />
+								<div onclick="fun(5)" class="video_icon" data-toggle="modal" data-target="#myvideo"></div>
+							</li> -->
+							<li>
+								<img src="img/new_03.jpg" alt="" />
+								<div  onclick="fun(5)" class="video_icon" data-toggle="modal" data-target="#myvideo"></div>
+							</li>
+							<!--<li>-->
+								<!--<img src="img/Learning_center04.png" alt="" />-->
+								<!--<div onclick="fun(4)" class="video_icon" data-toggle="modal" data-target="#myvideo"></div>-->
+							<!--</li>-->
+
+						</ul>
+						<div class="arrow" id="arrow">
+							<a href="javascript:;" class="prev"></a>
+							<a href="javascript:;" class="next"></a>
+						</div>
+					</div>
+				</div>
+				<!--<div id="wrapper">
+					<div id="left" class=" fl"></div>
+					<ul class="fl">
+						<li >
+							<div class="">
+								<img src="img/Learning_center01.png"/>
+							</div>
+						</li>
+						<li>
+							<div class="">
+								<img src="img/Learning_center02.png"/>
+							</div>
+						</li>
+						<li>
+							<div class="">
+								<img src="img/Learning_center03.png"/>
+							</div>
+						</li>
+					</ul>
+					<div id="right" class=" fr"></div>
+				</div>-->
+			</div>
+		</div>
+		<div class="Teacher_Group">
+			<div class="max-width-920">
+				<img src="img/trianglehui.png" />
+				<p class="hei36">优秀学员</p>
+				<p class="hui16">Outstanding students</p>
+				<div class="Teachers hui16">
+					<div class="">
+						<div class="col-sm-3 col-xs-6">
+							<img src="img/study01.png" />
+							<div class="study_video"  onclick="fun(1)">
+								<a href="#" data-toggle="modal" data-target="#myvideo" ></a>
+							</div>
+							<p>Benjamin</p>
+						</div>
+						<div class="col-sm-3 col-xs-6">
+							<img src="img/study03.png" />
+							<div class="study_video" onclick="fun(2)" >
+								<a href="#" id="a16" data-toggle="modal" data-target="#myvideo"></a>
+							</div>
+							<p>Asli Gul Miydan</p>
+						</div>
+						<div class="col-sm-3 col-xs-6">
+							<img src="img/study02.png" />
+							<div class="study_video" onclick="fun(3)" >
+								<a id="a17" href="#" data-toggle="modal" data-target="#myvideo"></a>
+							</div>
+							<p>Rosemary</p>
+						</div>
+						<div class="col-sm-3 col-xs-6">
+							<img src="img/study04.png" />
+							<div class="study_video" onclick="fun(4)" >
+								<a id="a18" href="#" data-toggle="modal" data-target="#myvideo"></a>
+							</div>
+							<p>Eric</p>
+						</div>
+						<div class="clear"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="Counseling">
+			<div class="max-width-920">
+				<img src="img/triangle.png" />
+				<p class="hei36">资讯中心</p>
+				<p class="hui16">Information center</p>
+				<ul class="Counseling_list">
+
+					<li>
+						<div class="fl col-xs-3">
+							<img src="img/about_tesol.jpg" />
+						</div>
+						<div class="fr col-xs-9">
+							<span>北京交远出入境-国教中心在北京外交人员服务局语言文化中心考点组织TESOL考试</span>
+							<p>7月2日下午，北京交远出入境-国教中心在北京外交人员服务局语言文化中心考点组织TESOL国际教师资格证考试。学员们积极报名参考，尤其是在中国的外籍留学生更是热情高涨。在TESOL考试中,中外学员严格遵守考试纪律，仔细审题，认真答题。在规定时间内，学员们全部完成考试。
+</p>
+
+							<a href="new_4.html" class="text-right">更多>></a>
+						</div>
+						<div class="clear"></div>
+					</li>
+
+					<li>
+						<div class="fl col-xs-3">
+							<img src="img/new_03.jpg" />
+						</div>
+						<div class="fr col-xs-9">
+							<span>北京交远出入境-国教中心与牛津大学出版社举行项目合作签约仪式</span>
+							<p>5月26日下午，北京交远出入境-国教中心与英国牛津大学出版社（中国）有限公
+								司就双方合作开展英语培训项目举行了合作意向书签约仪式，活动邀请英
+								国驻华使馆公使Kevin Holland先生出席见证了双方的签约。北京外交人
+								员服务局副局长高宇、人事公司总经理兼北京交远因私出入境有限公司董事
+								长江强出席了签字仪式，牛津大学出版社中国有限公司代表李健同北京交远公司总
+								经理刘海波代表合作双方签字。</p>
+							<a href="new_3.html" class="text-right">更多>></a>
+						</div>
+						<div class="clear"></div>
+					</li>
+					<li>
+						<div class="fl col-xs-3">
+							<img src="img/new_01.jpg" />
+						</div>
+						<div class="fr col-xs-9">
+							<span>2016年11月17日交远出入境-国际教育中心与朝阳区三里屯小学展开学术互动</span>
+							<p>2016年11月17日交远出入境-国际教育中心与朝阳区三里屯小学展开学术互动：</p>
+							<p>一、就英语教师专业技能提升达成共识，引入“Tesol国际英语教师资格证培训”，英语教师已开始线上培训；</p>
+							<p>二、交远出入境-国际教育中心偕同英国牛津大学出版社就青少英语教学与学校展开学术探讨。</p>
+							<a href="new_2.html" class="text-right">更多>></a>
+						</div>
+						<div class="clear"></div>
+					</li>
+					<li>
+						<div class="fl col-xs-3">
+							<img src="img/about_wfj.png" />
+						</div>
+						<div class="fr col-xs-9">
+							<span>TESOL官网开通《TESOL国际教师资格证》的证书查询系统</span>
+							<p>TESOL官网开通《TESOL国际教师资格证》的证书查询系统开通啦！</p>
+							<p>具体位置：</p>
+							<a href="new.html" class="text-right">更多>></a>
+						</div>
+						<div class="clear"></div>
+					</li>
+
+
+
+				</ul>
+			</div>
+		</div>
+		<!--模态框-->
+		<div class="modal fade" id="myvideo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" onclick="CKobject.getObjectById('ckplayer_a1').videoPause()" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+						<h4 class="modal-title" id="myModalLabel">精彩视频</h4>
+					</div>
+					<div id="a1" class="">
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<div class="footer_bg">
+				<div class="qianhui14 max-width-920">
+					<!--<div class="footer_left col-sm-10 col-xs-12 fl">
+						<p>友情链接：</p>
+						<a href="http://www.bds-cn.com/jyys/"><img src="img/jiaoyuan.png" /></a>
+					</div>-->
+					<div class="footer_right col-sm-2 col-xs-12 fr">
+						<img src="img/erweima.png" />
+						<p>扫一扫<br />关注微信公众号<br />随时了解最新动态</p>
+					</div>
+					<div class="clear">
+						<p>版权所有：交远出入境-国际教育中心 / 美国专业教学委员会<br />400热线：400-900-1806</p>
+						<p class="text-center">Copyright © 交远出入境-国际教育中心 京ICP备16035567号-1</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<script src="ckplayer/ckplayer.js" type="text/javascript" charset="utf-8"></script>
+		<script src="/js/jquery.min.js"></script>
+		<script>
+			// $("#hzhb").click(function(){
+			// 	alert("建设升级中");
+			// })
+		</script>
+<!--浮窗-->
+<!-- <script type=text/javascript src="js/Index_Move.js"></script>
+<DIV style="Z-INDEX: 999999; width:400px; height:220px;" id=gg1><a href="piaofu.html" target="_blank" >
+<img src="img/38.png" name="LX_Scrool_Img" width="400" height="220"   id=LX_Scrool_Img></a></DIV>
+<script type=text/javascript>
+        var ad1=new AdMove("gg1");
+        ad1.Run();
+</script> -->
+
+
+	</body>
+
+</html>
